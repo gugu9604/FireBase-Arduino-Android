@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainlogin"
+    tools:context=".Google_login">
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/Google_Login"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:layout_marginTop="480dp"
+        android:alpha="1"
+        tools:ignore="MissingConstraints"></com.google.android.gms.common.SignInButton>
+</LinearLayout>

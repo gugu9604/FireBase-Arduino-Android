@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Fooddiet"></activity>
+        <activity android:name=".Foodbulk" />
+        <activity android:name=".normallist" />
+        <activity android:name=".NormalMode" />
+        <activity android:name=".dietlist" />
+        <activity android:name=".DietMode" />
+        <activity android:name=".bluetoothlist" />
+        <activity android:name=".dumbbellbluetooth" />
+        <activity android:name=".youtubevideo" />
+        <activity android:name=".bulklist" />
+        <activity android:name=".FoodList" />
+        <activity android:name=".PerCalrorielist" />
+        <activity android:name=".FoodDetail" />
+
+        <service
+            android:name=".ForegroundService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".BulkMode" />
+        <activity android:name=".bluetooth" />
+        <activity android:name=".Calrorie" />
+        <activity android:name=".FoodMenu" />
+        <activity android:name=".ExerciseMenu" />
+        <activity android:name=".RecordMenu" />
+        <activity android:name=".MainMenu" />
+        <activity android:name=".Google_login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fooddiet">
+
+    <View
+        android:id="@+id/view26"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="300dp"
+        android:alpha="0.3"
+        android:background="#000000"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <View
+        android:id="@+id/view24"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="90dp"
+        android:alpha="0.3"
+        android:background="#000000"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view28"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="140dp"
+        android:alpha="0.3"
+        android:background="#000000"
+        app:layout_constraintTop_toTopOf="parent" />
+    <View
+        android:id="@+id/view29"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="350dp"
+        android:alpha="0.3"
+        android:background="#000000"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view30"
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="555dp"
+        android:alpha="0.3"
+        android:background="#000000"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="410dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="88dp"
+        android:gravity="center"
+        android:text="아침"
+        android:textColor="#636161"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="410dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:text="점심"
+        android:textColor="#636161"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="410dp"
+        android:layout_height="56dp"
+
+        android:layout_marginTop="505dp"
+        android:gravity="center"
+        android:text="저녁"
+        android:textColor="#636161"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="195dp"
+        android:layout_height="131dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="160dp"
+        android:text="미숫가루 (90Cal)\n감자크림스프 (150Cal)\n곤약 국수 (35Cal)\n미숫가루 (90Cal)
+        \n야채피자 (148Cal)\n두부 샌드위치 (100Cal)"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="198dp"
+        android:layout_height="141dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="368dp"
+        android:text="튀김우동(577Cal)\n잡채밥(716Cal)\n오징어덮밥(640Cal)\n자장면(460Cal)
+\n칼국수(410Cal)\n오므라이스(630Cal)"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.009"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:layout_width="198dp"
+        android:layout_height="141dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="584dp"
+        android:text="오이 단호박 샐러드(20Cal)\n삼겹살찜(250Cal)\n야채샤브샤브(180Cal)\n오븐 돈까스(330Cal)\n플레이요구르트 연어구이(250)"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.009"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="176dp"
+        android:gravity="center"
+        android:text="택 1"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.919"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="384dp"
+        android:gravity="center"
+        android:text="택 1"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.919"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:id="@+id/textView52"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="600dp"
+        android:gravity="center"
+        android:text="택 1"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.919"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <View
+        android:id="@+id/view27"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="520dp"
+        android:alpha="0.3"
+        android:background="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/rec_diet_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="35dp"
+        android:background="#ffff"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
